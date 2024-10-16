@@ -20,9 +20,9 @@
       <category><![CDATA[Update]]></category>
       <guid isPermaLink="false">https://github.com/aws-samples/aws-cudos-framework-deployment/blob/main/changes/CHANGELOG-scad-cca.md#scad-containers-cost-allocation-dashboard---v100</guid>
       <content:encoded>Added support to view Net Amortized Cost in "View Cost As" control in all sheets. &lt;br&gt; &lt;br&gt; Removed "Exclude last 1 month" from all date range controls to prevent "No Data" (because Split Cost Allocation Data for EKS starts filling data only in current month)
-     &lt;br&gt; 
+     &lt;br&gt; &lt;br&gt; 
      Fixed issue where all split cost and usage metrics were lower than they should be, for pods on EC2 instances that were running for less than a full hour
-     &lt;br&gt;
+     &lt;br&gt; &lt;br&gt; 
      Fixed aggregation issues for usage metrics in Athena views</content:encoded>
     </item>
 
